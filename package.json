@@ -1,0 +1,12 @@
+{
+  "name": "minilb",
+  "version": "0.1.0",
+  "description": "L7 HTTP load balancer: four balancing policies, active and passive health checks, circuit breakers, safe retries. No dependencies.",
+  "main": "src/proxy.js",
+  "bin": { "minilb": "src/cli.js" },
+  "scripts": { "test": "node --test test/*.test.js", "start": "node src/cli.js" },
+  "keywords": ["load-balancer", "reverse-proxy", "circuit-breaker", "ewma", "health-check"],
+  "engines": { "node": ">=18" },
+  "license": "MIT",
+  "author": "Hadim Anes Abdelhak"
+}
